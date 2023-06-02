@@ -1,4 +1,11 @@
 import { useQuery, useMutation } from 'react-query'
+import { Routes, Route } from 'react-router-dom'
+
+// Components & Pages
+import Home from './Pages/Home'
+import Category from './Pages/Category'
+import ProductDetail from './Pages/ProductDetail'
+import Nav from './Components/Nav'
 
 function App() {
   
@@ -14,12 +21,23 @@ function App() {
   if(productQuery.isError) return <h1>Error...</h1>
   
   return (
-    <div>
-      {productQuery.data.map(product => {
-        return <p key={product._id}>{product.name}</p>
-      })}
-    </div>
+    <>
+      <Nav />
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/category' element={<Category/>} />
+        <Route path='/productdetail' element={<ProductDetail/>} />
+      </Routes>
+    </>
   )
 }
 
 export default App
+
+/*
+  <div>
+    {productQuery.data.map(product => {
+      return <p key={product._id}>{product.name}</p>
+    })}
+  </div>
+*/
