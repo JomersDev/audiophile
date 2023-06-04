@@ -12,4 +12,22 @@
   html {
     font-family: Manrope, sans-serif;
   }
+  h1 {
+    @apply text-[3.5rem] font-bold uppercase tracking-[0.125rem] leading-[3.625rem]
+  }
+  h2 {
+    @apply text-[2.5rem] font-bold uppercase tracking-[0.089rem] leading-[2.75rem]
+  }
+  h3 {
+    @apply text-[2rem] font-bold uppercase tracking-[0.089rem] leading-[2.375rem]
+  }
+  h4 {
+    @apply text-[1.75rem] font-bold uppercase tracking-[0.125rem] leading-[2.375rem]
+  }
+  h5 {
+    @apply text-[1.5rem] font-bold uppercase tracking-[0.107rem] leading-[2.0625rem]
+  }
+  h6 {
+    @apply text-[1.125rem] font-bold uppercase tracking-[0.0803rem] leading-[1.5625rem]
+  }
 }
