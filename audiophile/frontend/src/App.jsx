@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
 import Category from './Pages/Category'
 import ProductDetail from './Pages/ProductDetail'
-import Nav from './Components/Nav'
+import Nav from './Components/shared/Nav'
 
 function App() {
   

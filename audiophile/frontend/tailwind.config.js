@@ -10,11 +10,12 @@ export default {
         'raw-siena': '#D87D4A',
         'hit-pink': '#FBAF85',
         'cod-gray': '#101010',
-        'seashell': '#F1F1F1'
+        'seaShell': '#F1F1F1',
+        'lotion': '#FAFAFA'
       },
-      //fontFamily: {
-        //'jost' : ['Jost', 'sans-serif'],
-     // }
+      screens: {
+        'lg': '1440px'
+      }
     },
   },
   plugins: [],
