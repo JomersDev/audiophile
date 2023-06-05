@@ -10,7 +10,7 @@ export default {
         'raw-siena': '#D87D4A',
         'hit-pink': '#FBAF85',
         'cod-gray': '#101010',
-        'seaShell': '#F1F1F1',
+        'sea-shell': '#F1F1F1',
         'lotion': '#FAFAFA'
       },
       screens: {

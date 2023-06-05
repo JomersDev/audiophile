@@ -1,6 +1,6 @@
 export default function FeaturedProduct() {
   return (
-    <section className="flex flex-col items-center py-12 mx-6 mt-32 text-white rounded-lg bg-raw-siena">
+    <section className="bg-[url('/home/desktop/pattern-circles.svg')] bg-no-repeat bg-cover bg-center flex flex-col items-center py-12 mx-6 mt-32 text-white rounded-lg bg-raw-siena">
       <img src="/home/mobile/image-speaker-zx9.png" alt="zx9 speaker" className="h-52"/>
       <h3 className="max-w-[14rem] mt-8 text-4xl text-center mb-6">
         zx9 speaker

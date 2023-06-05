@@ -30,6 +30,27 @@ export default function Home() {
 
       <FeaturedProduct />
 
+      <div className="bg-[url('/home/mobile/image-speaker-zx7.jpg')] bg-no-repeat bg-cover h-80 mx-6 rounded-lg mt-6 flex flex-col justify-center pl-6 gap-y-6">
+        <h4>
+          zx7 speaker
+        </h4>
+        <button className='w-40 py-3 text-xs font-bold uppercase border border-black tracking-[0.0625rem]'>
+          see product
+        </button>
+      </div>
+
+      <div className='flex flex-col mx-6 mt-6 gap-y-6'>
+        <img src="/home/mobile/image-earphones-yx1.jpg" alt="earphones" className="rounded-lg"/>
+        <div className='flex flex-col justify-center pl-6 rounded-lg h-52 bg-sea-shell gap-y-6'>
+          <h4>
+            yx1 earphones
+          </h4>
+          <button className='w-40 py-3 text-xs font-bold uppercase border border-black tracking-[0.0625rem]'>
+            see product
+          </button>
+        </div>
+      </div>
+
       <BestGear />
     </section>
   )

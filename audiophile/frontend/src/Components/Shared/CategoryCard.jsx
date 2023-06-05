@@ -1,6 +1,6 @@
 export default function CategoryCard(props) {
     return (
-      <div className="flex flex-col items-center p-5 rounded-lg bg-seaShell">
+      <div className="flex flex-col items-center p-5 rounded-lg bg-sea-shell">
         <img 
           className="h-28"
           src={props.image} 
