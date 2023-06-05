@@ -1,6 +1,6 @@
 export default function BestGear() {
   return (
-    <section className="mx-6 mt-32">
+    <section className="mx-6 my-32">
       <img src="/shared/mobile/image-best-gear.jpg" alt="best gear" className="mb-10 rounded-lg"/>
       <h4 className="mb-8 text-center">
         bringing you the <span className="text-raw-siena">best</span> audio gear

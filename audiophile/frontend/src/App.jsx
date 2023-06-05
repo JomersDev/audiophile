@@ -6,6 +6,7 @@ import Home from './Pages/Home'
 import Category from './Pages/Category'
 import ProductDetail from './Pages/ProductDetail'
 import Nav from './Components/shared/Nav'
+import Footer from './Components/Shared/Footer'
 
 function App() {
   
@@ -28,6 +29,7 @@ function App() {
         <Route path='/category' element={<Category/>} />
         <Route path='/productdetail' element={<ProductDetail/>} />
       </Routes>
+      <Footer />
     </>
   )
 }
