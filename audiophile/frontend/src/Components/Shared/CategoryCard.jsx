@@ -6,11 +6,11 @@ export default function CategoryCard(props) {
           src={props.image} 
           alt="headphones" 
         />
-        <h6 className="mb-4">
+        <h6 className="mb-4 text-black">
           {props.category}
         </h6>
         <div className="flex items-center gap-x-4">
-          <p className="text-sm font-bold tracking-wider uppercase opacity-50">
+          <p className="text-sm font-bold tracking-wider text-black uppercase opacity-50">
             shop
           </p>
           <img src="/shared/desktop/icon-arrow-right.svg" alt="arrow right" />

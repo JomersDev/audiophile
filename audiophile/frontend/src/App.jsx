@@ -7,6 +7,7 @@ import Category from './Pages/Category'
 import ProductDetail from './Pages/ProductDetail'
 import Nav from './Components/shared/Nav'
 import Footer from './Components/Shared/Footer'
+import NavBar from './Components/Shared/NavBar'
 
 function App() {
   
@@ -23,7 +24,7 @@ function App() {
   
   return (
     <>
-      <Nav />
+      <NavBar />
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/category' element={<Category/>} />
